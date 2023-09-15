@@ -5,14 +5,14 @@
 
 OS : Win10
 
-Powershell uzstāda pyenv-win
+## Powershell uzstāda pyenv-win
 ```
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" 
 -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 ```
 
-CMD uzstāda vajadzīgās python versijas
-
+## CMD uzstāda vajadzīgās python versijas
+```
 C:\Windows\System32>pyenv install 3.11.5
 :: [Info] ::  Mirror: https://www.python.org/ftp/python
 :: [Downloading] ::  3.11.5 ...
@@ -28,19 +28,19 @@ C:\Windows\System32>pyenv install 2.7.2
 :: [Downloading] ::  To   C:\Users\Lektors\.pyenv\pyenv-win\install_cache\python-2.7.2.amd64.msi
 :: [Installing] ::  2.7.2 ...
 :: [Info] :: completed! 2.7.2
+```
 
-
-Apskata uzstādītās versijas
-
+## Apskata uzstādītās versijas
+```
 C:\Windows\System32>python3 --version
 Python 3.11.5
 
 C:\Windows\System32>python --version
 Python 2.7.2
+```
 
-
-Maina versijas
-
+## Maina versijas
+```
 C:\Windows\System32>pyenv global 2.7.2
 
 C:\Windows\System32>pyenv version
@@ -50,11 +50,10 @@ C:\Windows\System32>pyenv global 3.11.5
 
 C:\Windows\System32>pyenv version
 3.11.5 (set by C:\Users\Lektors\.pyenv\pyenv-win\version)
+```
 
 
-
-
-EXERCISE 2
+# EXERCISE 2
 
 
 
