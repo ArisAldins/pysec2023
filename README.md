@@ -55,10 +55,8 @@ C:\Windows\System32>pyenv version
 
 # EXERCISE 2
 
-
-
-Uzstāda virtualenv
-
+## Uzstāda virtualenv
+```
 C:\Windows\System32>pip install virtualenv
 Collecting virtualenv
   Obtaining dependency information for virtualenv from https://files.pythonhosted.org/packages/4e/8b/f0d3a468c0186c603217a6656ea4f49259630e8ed99558501d92f6ff7dc3/virtualenv-20.24.5-py3-none-any.whl.metadata
@@ -80,11 +78,10 @@ Downloading filelock-3.12.4-py3-none-any.whl (11 kB)
 Downloading platformdirs-3.10.0-py3-none-any.whl (17 kB)
 Installing collected packages: distlib, platformdirs, filelock, virtualenv
 Successfully installed distlib-0.3.7 filelock-3.12.4 platformdirs-3.10.0 virtualenv-20.24.5
+```
 
-
-
-Izveido, aktivizē un deaktivizē virtuālās python vides
-
+## Izveido, aktivizē un deaktivizē virtuālās python vides
+```
 C:\Windows\system32>cd c:\python
 
 c:\python>virtualenv --python C:\Users\Lektors\AppData\Local\Programs\Python\Python311\python.exe venv3.11
@@ -93,30 +90,29 @@ created virtual environment CPython3.11.5.final.0-64 in 967ms
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\Lektors\AppData\Local\pypa\virtualenv)
     added seed packages: pip==23.2.1, setuptools==68.2.0, wheel==0.41.2
   activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
-  
-  
+```  
+```  
   c:\python>.\venv3.11\Scripts\activate
 
 (venv3.11) c:\python>
 
-
 (venv3.11) C:\python>deactivate
 C:\python>
-
-
-
+```
+```
 C:\python>virtualenv --python C:\Users\Lektors\AppData\Local\Programs\Python\Python311\python.exe venv2.7
 created virtual environment CPython3.11.5.final.0-64 in 843ms
   creator CPython3Windows(dest=C:\python\venv2.7, clear=False, no_vcs_ignore=False, global=False)
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\Lektors\AppData\Local\pypa\virtualenv)
     added seed packages: pip==23.2.1, setuptools==68.2.0, wheel==0.41.2
   activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
-
+```
+```
 C:\python>.\venv2.7\Scripts\activate
 
 (venv2.7) C:\python>
-
-
+```
+```
 C:\python>dir
  Volume in drive C has no label.
  Volume Serial Number is 0002-6A0A
@@ -127,10 +123,11 @@ C:\python>dir
 09/14/2023  07:12 PM    <DIR>          ..
 09/14/2023  07:12 PM    <DIR>          venv2.7
 09/14/2023  06:47 PM    <DIR>          venv3.11
+```
 
+## Dažādās vidēs uzstāda dažādas biblotēkas
 
-Dažādās vidēs uzstāda dažādas biblotēkas
-
+```
 C:\python>.\venv3.11\Scripts\activate
 
 (venv3.11) C:\python>pip install google
@@ -146,8 +143,8 @@ Collecting soupsieve>1.2 (from beautifulsoup4->google)
 Downloading soupsieve-2.5-py3-none-any.whl (36 kB)
 Installing collected packages: soupsieve, beautifulsoup4, google
 Successfully installed beautifulsoup4-4.12.2 google-3.0.0 soupsieve-2.5
-
-
+```
+```
 (venv3.11) C:\python>pip install numpy
 Collecting numpy
   Obtaining dependency information for numpy from https://files.pythonhosted.org/packages/72/b2/02770e60c4e2f7e158d923ab0dea4e9f146a2dbf267fec6d8dc61d475689/numpy-1.25.2-cp311-cp311-win_amd64.whl.metadata
@@ -156,7 +153,8 @@ Downloading numpy-1.25.2-cp311-cp311-win_amd64.whl (15.5 MB)
    ---------------------------------------- 15.5/15.5 MB 21.1 MB/s eta 0:00:00
 Installing collected packages: numpy
 Successfully installed numpy-1.25.2
-
+```
+```
 (venv3.11) C:\python>pip install pandas
 Collecting pandas
   Obtaining dependency information for pandas from https://files.pythonhosted.org/packages/b7/f8/32d6b5aa4c4bc045fa2c4c58f88c325facc54721956c6313f0afea8ea853/pandas-2.1.0-cp311-cp311-win_amd64.whl.metadata
@@ -179,7 +177,8 @@ Downloading pytz-2023.3.post1-py2.py3-none-any.whl (502 kB)
    ---------------------------------------- 502.5/502.5 kB 7.9 MB/s eta 0:00:00
 Installing collected packages: pytz, tzdata, six, python-dateutil, pandas
 Successfully installed pandas-2.1.0 python-dateutil-2.8.2 pytz-2023.3.post1 six-1.16.0 tzdata-2023.3
-
+```
+```
 (venv3.11) C:\python>deactivate
 
 C:\python>.\venv2.7\Scripts\activate
@@ -203,11 +202,13 @@ Downloading pytest-7.4.2-py3-none-any.whl (324 kB)
 Downloading pluggy-1.3.0-py3-none-any.whl (18 kB)
 Installing collected packages: pluggy, packaging, iniconfig, colorama, pytest
 Successfully installed colorama-0.4.6 iniconfig-2.0.0 packaging-23.1 pluggy-1.3.0 pytest-7.4.2
-
+```
+```
 (venv2.7) C:\python>pip install socket
 ERROR: Could not find a version that satisfies the requirement socket (from versions: none)
 ERROR: No matching distribution found for socket
-
+```
+```
 (venv2.7) C:\python>pip install cryptography
 Collecting cryptography
   Obtaining dependency information for cryptography from https://files.pythonhosted.org/packages/30/56/5f4eee57ccd577c261b516bfcbe17492838e2bc4e2e92ea93bbb57666fbd/cryptography-41.0.3-cp37-abi3-win_amd64.whl.metadata
@@ -222,7 +223,8 @@ Downloading cryptography-41.0.3-cp37-abi3-win_amd64.whl (2.6 MB)
    ---------------------------------------- 2.6/2.6 MB 1.2 MB/s eta 0:00:00
 Installing collected packages: pycparser, cffi, cryptography
 Successfully installed cffi-1.15.1 cryptography-41.0.3 pycparser-2.21
-
+```
+```
 (venv2.7) C:\python>pip freeze
 cffi==1.15.1
 colorama==0.4.6
@@ -249,4 +251,4 @@ tzdata==2023.3
 
 (venv3.11) C:\python>deactivate
 C:\python>
-
+```
