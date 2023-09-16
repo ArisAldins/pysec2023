@@ -1,4 +1,4 @@
-# Nestrādājoš meklēšanas scripta mēģinājums. EXERCISE-13.py failā realizēta pieslēgšanās FTP no serveru listes.
+# nestrādājošs meklēšanas scripta mēģinājums. EXERCISE-13.py failā realizēta pieslēgšanās FTP no manuāli veidotas serveru listes, bez meklēšanas.
 
 import re
 from googlesearch import search
