@@ -1,0 +1,13 @@
+Sep 10 09:39:00 localhost telegraf[2615472]: 2023-09-10T06:39:00Z E! [inputs.snmp] Error in plugin: agent 127.0.0.1:1024: gathering table snmp: performing bulk walk for field ifName: error reading from socket: read udp 127.0.0.1:54399->127.0.0.1:1024: recvfrom: connection refused
+Sep 10 09:39:00 localhost telegraf[2615472]: 2023-09-10T06:39:00Z E! [inputs.snmp] Error in plugin: agent 127.0.0.1:1024: gathering table interface: performing bulk walk for field ifDescr: error reading from socket: read udp 127.0.0.1:54399->127.0.0.1:1024: recvfrom: connection refused
+Sep 10 09:39:00 localhost systemd[1]: Starting Clean php session files...
+Sep 10 09:39:00 localhost systemd[1]: phpsessionclean.service: Deactivated successfully.
+Sep 10 09:39:00 localhost systemd[1]: Finished Clean php session files.
+Sep 10 09:39:00 localhost k3s[1736294]: time="2023-09-10T09:39:00+03:00" level=info msg="Connecting to proxy" url="wss://192.168.99.36:6443/v1-k3s/connect"
+Sep 10 09:39:01 localhost CRON[3958897]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Sep 10 09:39:01 localhost k3s[1736294]: time="2023-09-10T09:39:01+03:00" level=error msg="Failed to connect to proxy. Empty dialer response" error="dial tcp 192.168.99.36:6443: connect: no route to host"
+Sep 10 09:39:01 localhost k3s[1736294]: time="2023-09-10T09:39:01+03:00" level=error msg="USB Remotedialer proxy error" error="dial tcp 192.168.99.36:6443: connect: no route to host"
+Sep 10 09:39:02 localhost k3s[1736294]: W0910 09:39:02.846098 1736294 garbagecollector.go:816] failed to discover some groups: map[metrics.k8s.io/v1beta1:stale GroupVersion discovery: metrics.k8s.io/v1beta1]
+Sep 10 09:39:06 localhost k3s[1736294]: time="2023-09-10T09:39:06+03:00" level=info msg="Connecting to proxy" url="wss://192.168.99.36:6443/v1-k3s/connect"
+Sep 10 09:39:08 localhost k3s[1736294]: time="2023-09-10T09:39:08+03:00" level=error msg="Failed to connect to proxy. Empty dialer response" error="dial tcp 192.168.99.36:6443: connect: no route to host"
+Sep 10 09:39:08 localhost k3s[1736294]: time="2023-09-10T09:39:08+03:00" level=error msg="Remotedialer proxy error" error="dial tcp 192.168.99.36:6443: connect: no route to host"
