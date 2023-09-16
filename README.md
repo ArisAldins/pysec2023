@@ -125,7 +125,7 @@ C:\python>dir
 09/14/2023  06:47 PM    <DIR>          venv3.11
 ```
 
-## Dažādās vidēs uzstāda dažādas biblotēkas
+## Dažādās vidēs uzstāda dažādas bibliotēkas
 
 ```
 C:\python>.\venv3.11\Scripts\activate
