@@ -18,7 +18,7 @@ print("Pilsētu liste:", cities_list)
 # Izveido vārdnīcu ar info par grāmatām
 book_info = {
     "title": "Mērnieku laikie",
-    "author": "Kaudzītess",
+    "author": "Kaudzītes",
     "year": 1879,
 }
 
