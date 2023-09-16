@@ -1,4 +1,4 @@
-#EXERCISE 1
+#EXERCISE 3
 #DATU TIPU DEMONSTRĀCIJA
 
 # Izveido listi ar pilsētām
