@@ -1,3 +1,5 @@
+# Nestrādājoš meklēšanas scripta mēģinājums. EXERCISE-13.py failā realizēta pieslēgšanās FTP no serveru listes.
+
 import re
 from googlesearch import search
 import time
