@@ -252,3 +252,5 @@ tzdata==2023.3
 (venv3.11) C:\python>deactivate
 C:\python>
 ```
+## Izveido atkarību listi
+(venv3.11) C:\python>pip freeze > requirements.txt
