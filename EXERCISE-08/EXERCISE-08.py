@@ -14,7 +14,7 @@ for filename in os.listdir(log_directory):
     if os.path.isfile(os.path.join(log_directory, filename)):
         try:
             with open(os.path.join(log_directory, filename), 'r') as log_file:
-                print(f"Logs from file: {filename}")
+                print(f"---Logi ar USB no faila: {filename} ---")
                 for line in log_file:
                     # meklē keywordus
                     if any(keyword in line for keyword in usb_keywords):
