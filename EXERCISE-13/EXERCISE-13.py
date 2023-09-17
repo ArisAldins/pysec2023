@@ -1,8 +1,6 @@
 # programma no manuāli veidotas ftp listes ielogojas un atgriež serveru root dir saturu.
 
 # ftp meklēšanu, lai veidotu listi automātiski no rezultātiem neizdevās realizēt.
-# nelikās arī ļoti loģiski, kāpēc googlē būtu jāmētājas publiskiem ftp serveriem ar loginiem (???), 
-# lai gan šie 3 listē tādi ir.
 
 # meklēšanu mēģināju realizēt gan ar pygoogle, gan googlesearch - bet izskatās, ka loginiem būtu jāglabājas
 # specifiskā un vienādā formātā, lai tos varētu atrast, atpazīt un savākt (???).
